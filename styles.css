@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+.card-img-top {
+    object-fit: scale-down;
+    /* scale the image while maintaining aspect ratio */
+    height: 80%;
+    /* set the height to fill the available space */
+}
+.produce :hover {
+    border-color: #be2929;
+
+}
+.color-red{
+    color: #be2929;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+th,
+td {
+    border-bottom: 1px solid black;
+}
+
+.left {
+    text-align: left;
+}
+
+.menuConnexion {
+    text-align: right;
+    font-size: small;
+}
+
+.linkProduce {
+    text-decoration: none;
+}
